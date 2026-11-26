@@ -1,27 +1,26 @@
-# Dueños de código para el monorepo SobraCero.
-# Reemplaza @usuario1 ... @usuario6 por los usuarios reales de GitHub de tu equipo.
+# Dueños de código del Frontend SobraCero.
+# GitHub asigna revisores automáticamente cuando un PR toca cada módulo.
 
-# Dev 1 — Arquitectura Base, Backend, Core, Layout y Auth
-*                                                    @usuario1
-/sobracero-backend/                                  @usuario1
-/sobracero-frontend/src/app/core/                    @usuario1
-/sobracero-frontend/src/app/shared/                  @usuario1
-/sobracero-frontend/src/app/layout/                  @usuario1
-/sobracero-frontend/src/app/features/auth/           @usuario1
-/sobracero-frontend/src/app/features/notificaciones/ @usuario1
+# Dev 1 — Diego Torres (Arquitectura Base, Core, Layout, Auth y Notificaciones)
+*                                   @DiegoA-TorresA
+/src/app/core/                      @DiegoA-TorresA
+/src/app/shared/                    @DiegoA-TorresA
+/src/app/layout/                    @DiegoA-TorresA
+/src/app/features/auth/             @DiegoA-TorresA
+/src/app/features/notificaciones/   @DiegoA-TorresA
 
-# Dev 2 — Landing e Impacto Público
-/sobracero-frontend/src/app/features/landing/        @usuario2
+# Dev 2 — Angello Castillo (Landing e Impacto Público)
+/src/app/features/landing/          @AngelloCastillo
 
-# Dev 3 — Consumidor
-/sobracero-frontend/src/app/features/consumidor/     @usuario3
+# Dev 3 — Luz Gonzales (Consumidor)
+/src/app/features/consumidor/       @VeroGV00
 
-# Dev 4 — Comercio
-/sobracero-frontend/src/app/features/comercio/       @usuario4
+# Dev 4 — Alvaro Grados (Comercio)
+/src/app/features/comercio/         @algrada
 
-# Dev 5 — Organización Social
-/sobracero-frontend/src/app/features/organizacion/   @usuario5
+# Dev 5 — William Villacorta (Organización Social)
+/src/app/features/organizacion/     @WilliamUnoDosTres
 
-# Dev 6 — Administración e Impacto
-/sobracero-frontend/src/app/features/admin/          @usuario6
-/sobracero-frontend/src/app/features/impacto/        @usuario6
+# Dev 6 — Mathias Oré (Administración e Impacto)
+/src/app/features/admin/            @MathiasOre
+/src/app/features/impacto/          @MathiasOre

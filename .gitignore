@@ -1,25 +1,49 @@
-# IDEs y Editores
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log*
+yarn-error.log*
+
+# IDEs y editores
 .idea/
 *.iml
 *.iws
 *.ipr
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Herramientas de IA y agentes locales
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Herramientas locales
 .agents/
 .gemini/
 
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
 # Archivos del sistema
-Thumbs.db
 .DS_Store
-
-# Backend (Spring Boot / Maven)
-sobracero-backend/target/
-sobracero-backend/.mvn/wrapper/maven-wrapper.jar
-
-# Frontend (Angular / Node)
-sobracero-frontend/node_modules/
-sobracero-frontend/dist/
-sobracero-frontend/.angular/cache/
-sobracero-frontend/npm-debug.log*
-sobracero-frontend/yarn-error.log*
-sobracero-frontend/.history/
+Thumbs.db
