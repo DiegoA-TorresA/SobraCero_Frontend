@@ -4,15 +4,15 @@
 
 Este repositorio contiene la **Aplicación Web SPA (Frontend)** de **SobraCero**, construida con **Angular 22**, TypeScript y SCSS, con despliegue activo en GitHub Pages y flujo de trabajo colaborativo **Gitflow**.
 
-* 🌐 **Demo en vivo (GitHub Pages):** [https://diegoa-torresa.github.io/SobraCeroRepo/](https://diegoa-torresa.github.io/SobraCeroRepo/)
-* ⚙️ **Repositorio del Backend (API REST Spring Boot):** [DiegoA-TorresA/sobracero-backend](https://github.com/DiegoA-TorresA/sobracero-backend)
+* 🌐 **Demo en vivo (GitHub Pages):** [https://diegoa-torresa.github.io/SobraCero_Frontend/](https://diegoa-torresa.github.io/SobraCero_Frontend/)
+* ⚙️ **Repositorio del Backend (API REST Spring Boot):** [DiegoA-TorresA/SobraCero_Backend](https://github.com/DiegoA-TorresA/SobraCero_Backend)
 
 ---
 
 ## 📁 Estructura del Proyecto
 
 ```text
-SobraCeroRepo/
+SobraCero_Frontend/
 ├── public/                    # Recursos estáticos y reglas de redirección SPA
 ├── src/
 │   ├── app/
@@ -46,12 +46,12 @@ SobraCeroRepo/
 
 ### Requisitos
 * **Node.js 22 LTS** o superior (`npm`).
-* Backend ejecutándose en local ([`sobracero-backend`](https://github.com/DiegoA-TorresA/sobracero-backend) en `http://localhost:8080`) **o** usar directamente el backend desplegado en la nube.
+* Backend ejecutándose en local ([`SobraCero_Backend`](https://github.com/DiegoA-TorresA/SobraCero_Backend) en `http://localhost:8080`) **o** usar directamente el backend desplegado en la nube.
 
 ### 1. Clonar e instalar dependencias
 ```bash
-git clone https://github.com/DiegoA-TorresA/SobraCeroRepo.git
-cd SobraCeroRepo
+git clone https://github.com/DiegoA-TorresA/SobraCero_Frontend.git
+cd SobraCero_Frontend
 npm install
 ```
 
